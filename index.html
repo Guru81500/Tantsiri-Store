@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#064b32" />
+  <meta name="description" content="Tantsiri — Where grace meets growth. Discover thoughtfully selected boutique pieces." />
+  <title>Tantsiri — Where grace meets growth</title>
+  <link rel="icon" href="/assets/tantsiri-logo.png" />
+  <link rel="stylesheet" href="/src/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="site-header">
+      <a class="brand" href="#/"><img src="/assets/tantsiri-logo.png" alt="Tantsiri logo"><span>Tantsiri</span></a>
+      <nav><a href="#/">Home</a><a href="#/shop">Shop</a><a href="#/collections">Collections</a><a href="#/about">Our story</a><a href="#/contact">Contact</a></nav>
+      <div class="header-actions"><a class="cart-link" href="#/cart">Bag <span id="cart-count">0</span></a><button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">☰</button></div>
+    </header>
+    <main id="view" aria-live="polite"><div class="loading">Loading Tantsiri…</div></main>
+    <footer class="site-footer"><div><img src="/assets/tantsiri-logo.png" alt="" /><p>Where grace meets growth.</p></div><div><strong>Explore</strong><a href="#/shop">Shop all</a><a href="#/collections">Collections</a><a href="#/about">About us</a></div><div><strong>Connect</strong><a id="footer-whatsapp" href="#">WhatsApp</a><a id="footer-instagram" href="#" target="_blank" rel="noopener">Instagram</a><a id="footer-email" href="mailto:hello@tantsiri.com">Email us</a></div><small>© <span id="year"></span> Tantsiri. All rights reserved.</small></footer>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
